@@ -20,4 +20,6 @@ The contact form validates locally and explicitly reports that no message is sen
 
 Fonts and the original atmospheric bayou illustration are bundled locally; no external asset requests are needed. Font licenses are included in `assets/`.
 
+The current design follows the supplied energy drink can reference: metallic silver, berry pink, crimson drips, and illustrated Classic and Cranberry & Raspberry cans. Creepster is bundled and used throughout as a close horror-lettering approximation; the reference image does not identify its original typeface. Can illustrations and flavor listings are design concepts, not a claim of product availability.
+
 This concept is not affiliated with HBO. True Blood and associated properties belong to their respective owners.
