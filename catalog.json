@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Classic",
+    "category": "Energy drink",
+    "pack": "Can",
+    "image": "assets/catalog/can-classic.jpg",
+    "sourcePage": 10
+  },
+  {
+    "name": "Ginger",
+    "category": "Energy drink",
+    "pack": "Can",
+    "image": "assets/catalog/can-ginger.jpg",
+    "sourcePage": 10
+  },
+  {
+    "name": "Chili",
+    "category": "Energy drink",
+    "pack": "Can",
+    "image": "assets/catalog/can-chili.jpg",
+    "sourcePage": 10
+  },
+  {
+    "name": "Non-Alcoholic",
+    "category": "Energy drink",
+    "pack": "Can",
+    "image": "assets/catalog/can-non-alcoholic.jpg",
+    "sourcePage": 11
+  },
+  {
+    "name": "Sugar Free",
+    "category": "Energy drink",
+    "pack": "Can",
+    "image": "assets/catalog/can-sugar-free.jpg",
+    "sourcePage": 11
+  },
+  {
+    "name": "Coconut & Blueberry",
+    "category": "Energy drink",
+    "pack": "Can",
+    "image": "assets/catalog/can-coconut-blueberry.jpg",
+    "sourcePage": 11
+  },
+  {
+    "name": "Classic",
+    "category": "Energy drink",
+    "pack": "Glass",
+    "image": "assets/catalog/glass-classic.jpg",
+    "sourcePage": 12
+  },
+  {
+    "name": "Ginger",
+    "category": "Energy drink",
+    "pack": "Glass",
+    "image": "assets/catalog/glass-ginger.jpg",
+    "sourcePage": 12
+  },
+  {
+    "name": "Chili",
+    "category": "Energy drink",
+    "pack": "Glass",
+    "image": "assets/catalog/glass-chili.jpg",
+    "sourcePage": 12
+  },
+  {
+    "name": "Sugar Free",
+    "category": "Energy drink",
+    "pack": "Glass",
+    "image": "assets/catalog/glass-sugar-free.jpg",
+    "sourcePage": 13
+  },
+  {
+    "name": "Coconut & Blueberry",
+    "category": "Energy drink",
+    "pack": "Glass",
+    "image": "assets/catalog/glass-coconut-blueberry.jpg",
+    "sourcePage": 13
+  },
+  {
+    "name": "Mango Peach",
+    "category": "Carbonated drink",
+    "pack": "Full sleeve",
+    "image": "assets/catalog/full-sleeve-mango-peach.jpg",
+    "sourcePage": 14
+  },
+  {
+    "name": "Acai Berry",
+    "category": "Carbonated drink",
+    "pack": "Full sleeve",
+    "image": "assets/catalog/full-sleeve-acai-berry.jpg",
+    "sourcePage": 14
+  },
+  {
+    "name": "Cactus Green Apple",
+    "category": "Carbonated drink",
+    "pack": "Full sleeve",
+    "image": "assets/catalog/full-sleeve-cactus-green-apple.jpg",
+    "sourcePage": 14
+  },
+  {
+    "name": "Ginger Lemon",
+    "category": "Carbonated drink",
+    "pack": "Full sleeve",
+    "image": "assets/catalog/full-sleeve-ginger-lemon.jpg",
+    "sourcePage": 15
+  },
+  {
+    "name": "Pinky Grip Fruit",
+    "category": "Carbonated drink",
+    "pack": "Full sleeve",
+    "image": "assets/catalog/full-sleeve-pinky-grip-fruit.jpg",
+    "sourcePage": 15
+  }
+]

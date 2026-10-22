@@ -1,37 +1,28 @@
-# True Blood — After Dark
+# True Blood — Adrenalina catalog
 
-A responsive, independent fan website with a three-slide homepage hero, filterable collection, contact form, and ingredients page. Built with HTML, CSS, and JavaScript; no package installation is required.
+A responsive five-page website whose brand data, product entries, logo, and editorial imagery come from the supplied `ADRENALINA.pdf`.
 
-## Run
+## Run and edit
 
-Use Node.js 24 or newer. From `/workspace/Jarrah`, run `npm start` (or `npm run dev`). The server listens on port 3000 on all interfaces; set `PORT` to override it. Stop it with Ctrl+C.
+Use Node.js 24 or newer. No dependency installation is needed.
 
-## Open or publish
+- `npm start` starts the server on `0.0.0.0:3000`; set `PORT` to override.
+- Edit `site.template.html`, `app.js`, or `styles.css`, then run `npm run build`.
+- The build outputs `index.html`, `products.html`, `ingredients.html`, `about.html`, and `contact.html`, embedding CSS, fonts, logos, and product images into each page.
+- Download all five HTML files into the same folder to open the site locally. Include `assets/ADRENALINA.pdf` to retain source/download links.
 
-`index.html`, `products.html`, `ingredients.html`, and `contact.html` are standalone pages containing their CSS, JavaScript, fonts, and artwork. Download these four files into the same folder and open `index.html` in a browser, or upload them to any static website host. GitHub's file viewer shows source code; it does not run the website.
+The source files remain human-editable; generated HTML is committed so GitHub Pages needs no build service. In repository **Settings → Pages**, deploy **main → / (root)**. The expected published address is `https://moejarrah88-creator.github.io/Jarrah/`; publication is managed by GitHub.
 
-To publish with GitHub Pages, go to the repository's **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/ (root)**, then save. After GitHub completes deployment, the website address is `https://moejarrah88-creator.github.io/Jarrah/`.
+## Data and imagery
 
-## Edit
+See [SOURCES.md](SOURCES.md) for the source-page map, image extraction details, and known source discrepancies. The original supplied brochure is retained at `assets/ADRENALINA.pdf`. `catalog.json` records the 16 entries and page references; `app.js` contains the matching runtime data. All displayed image assets are extracted from this PDF. Decorative drips are CSS, not generated product imagery. Creepster remains a bundled interface font, with its license in `assets/`; it is not claimed to be the source logo typeface.
 
-Edit `site.template.html`, `styles.css`, or `app.js`, then run `npm run build` to refresh all four standalone pages. The build uses only Node.js built-ins and preserves the source assets in `assets/`.
+The invented formulation, third-party health claims, generated can images, HBO references, and unsupported merchandise from earlier versions have been removed. Product information explicitly states what the PDF does not supply. The Sugar Free / Low Sugar discrepancy on page 11 is flagged.
 
-The contact form validates locally and explicitly reports that no message is sent. Connect a backend or form delivery service before enabling actual submissions. No personal information is stored. The catalog is a showcase, with illustrative product concepts and no checkout.
+## Behavior
 
-Fonts, the vector logo, the blood-edge artwork, and a six-scene product image sheet are bundled locally; no external asset requests are needed. Font licenses are included in `assets/`.
+The homepage carousel has three source-based slides, 5.5-second autoplay, previous/next, dots, swipe, keyboard controls, and pause/play. Automatic advancement pauses when keyboard focus is within the carousel. Reduced-motion preferences disable autoplay.
 
-The current design follows the supplied energy drink can reference: metallic silver, berry pink, crimson drips, and realistic Classic and Cranberry & Raspberry can visualizations. Creepster is bundled and used throughout as a close horror-lettering approximation; the reference image does not identify its original typeface. Can illustrations and flavor listings are design concepts, not a claim of product availability.
+The 10-second CSS product animation uses Classic can artwork from PDF page 10, plays once when visible, and supports pause/resume/replay. It does not autoplay with reduced-motion preferences.
 
-This concept is not affiliated with HBO. True Blood and associated properties belong to their respective owners.
-
-## Interactions and product information
-
-The homepage carousel has three distinct slides, advances every 5.5 seconds, and supports previous/next, slide dots, swipe, arrow keys when focused, and pause/play. Keyboard focus within the carousel pauses automatic advancement. Reduced-motion preferences disable carousel autoplay.
-
-The product reveal is an actual 10-second CSS animation, not a video file. It plays once when scrolled into view and offers pause/resume and replay. It does not autoplay with reduced-motion preferences; replay is an explicit opt-in.
-
-The product visuals are AI-generated from the supplied can design reference, not verified photographs of manufactured goods. The logo is a vector interpretation of the reference, not a supplied official logo file.
-
-The ingredients page describes evidence and limitations, links to FDA/NIH/NCCIH information, and explicitly labels invented formulation figures as fictional examples. These figures must never be used as a real nutrition label or medical/product claim.
-
-Footer links include the collection, ingredients, contact, FAQ, privacy and terms dialogs, and back to top. Privacy and terms describe the actual demonstration behavior.
+The contact page uses the business details printed on PDF page 37. Its form prepares a `mailto:` draft for the visitor to open in an email application; it never sends automatically or stores personal data. No backend, checkout, analytics, or tracking scripts are present. Brochure locations are presented as listed company locations, not verified retail stockists. Footer privacy and website-information dialogs describe actual site behavior.
